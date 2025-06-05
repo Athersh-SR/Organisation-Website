@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: white!important;
+}
+.header {
+    background-color: transparent;
+    z-index: 1055;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav-left .logo {
+    width: 150px;
+    height: auto;
+}
+
+.nav-middle ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-item a {
+    display: block;
+    font: 16px / 40px "Oswald", Arial, Verdana, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+
+.header {
+    background-image: url(../images/headerImg-modified.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+
+.header .header-content {
+    top: 188px;
+    left: 49px;
+}
+
+.header .header-content h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+}
+
+.nav-middle .nav-links .nav-item.active {
+    border-bottom: 4px solid black;
+    padding-bottom: 2px;
+}
+
+.header .header-content p {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+}
+
+.header .header-content button {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 16px;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+.header .header-content button:hover{
+    background: white;
+    color: black;
+}
+.dropdown-mega {
+  left: 0;
+  right: 0;
+  top: 100%;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  z-index: 1050;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 115%!important;
+    left: -726px!important;
+}
+.poppins{
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+}
+.offcanvas-body {
+    flex-grow: 1;
+    padding: 2rem 1rem!important;
+    overflow-y: auto;
+}
